@@ -1,0 +1,2 @@
+C:\Users\conor\FishPS\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+C:\Users\conor\FishPS\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
