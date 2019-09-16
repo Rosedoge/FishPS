@@ -33,12 +33,12 @@ public class BobScript : MonoBehaviour
 
     void Shoot()
     {
-        transform.RotateAround(transform.position, transform.up, Time.deltaTime * 90f);
+        transform.RotateAround(transform.position, transform.up, Time.deltaTime * 270f);
         Collider[] cols = Physics.OverlapSphere(transform.position, 10f);
         cols = EnemyCol(cols.OfType<Collider>().ToList());
         foreach (Collider col in cols)
         {
-            Debug.Log("Col name " + col.gameObject.name);
+            //Debug.Log("Col name " + col.gameObject.name);
             col.gameObject.GetComponent<Enemy>().TakeDamage(25);
         }
     }
